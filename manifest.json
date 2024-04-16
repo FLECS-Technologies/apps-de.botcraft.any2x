@@ -2,32 +2,23 @@
     "$schema": "https://raw.githubusercontent.com/FLECS-Technologies/app-sdk/main/manifest.schema.json",
     "_schemaVersion": "2.0.0",
     "app": "",
-    "version": "##VERSION##",
+    "version": "202404050843",
     "revision": "0",
-    "image": "flecs.azurecr.io/",
+    "image": "dfgjax.botcraft.io/botcraft/any2x:202404050843",
     "multiInstance": false,
     "editor": "",
-    "args": [
-        "--launch-arg-1",
-        "--launch-arg-2=8000"
-    ],
+    "args": [],
     "capabilities": [],
-    "conffiles": [
-        "default.conf:/etc/my-app/default.conf",
-        "default.conf:/etc/my-app/default.conf:ro",
-        "default.conf:/etc/my-app/default.conf:rw"
-    ],
-    "devices": [
-        "/dev/net/tun"
-    ],
-    "env": [
-        "MY_ENV=value"
-    ],
+    "conffiles": [],
+    "devices": [],
+    "env": [],
     "ports": [
-        "12345:12345"
+        "5000:5000"
     ],
     "volumes": [
-        "my-app-etc:/etc/my-app",
-        "/var/lib/my-app:/var/lib/my-app"
+        "./license:/app/license",
+        "./certs:/app/certs",
+        "./configs:/app/configs",
+        "./custom:/app/custom"
     ]
 }
