@@ -1,24 +1,19 @@
 {
     "$schema": "https://raw.githubusercontent.com/FLECS-Technologies/app-sdk/main/manifest.schema.json",
     "_schemaVersion": "2.0.0",
-    "app": "",
-    "version": "202404050843",
+    "app": "de.botcraft.any2x",
+    "version": "##VERSION##",
     "revision": "0",
-    "image": "dfgjax.botcraft.io/botcraft/any2x:202404050843",
+    "image": "dfgjax.botcraft.io/botcraft/any2x",
     "multiInstance": false,
     "editor": "",
-    "args": [],
-    "capabilities": [],
-    "conffiles": [],
-    "devices": [],
-    "env": [],
     "ports": [
         "5000:5000"
     ],
     "volumes": [
-        "./license:/app/license",
-        "./certs:/app/certs",
-        "./configs:/app/configs",
-        "./custom:/app/custom"
+        "botcraft/any2x/license:/app/license",
+        "botcraft/any2x/certs:/app/certs",
+        "botcraft/any2x/configs:/app/configs",
+        "botcraft/any2x/custom:/app/custom"
     ]
 }
