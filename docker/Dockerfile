@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM scratch:${VERSION}
+FROM dfgjax.botcraft.io/botcraft/any2x:${VERSION}
 
 ARG ARCH
 ARG VERSION
