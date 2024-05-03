@@ -11,10 +11,10 @@
         "5000:5000"
     ],
     "volumes": [
-        "botcraft-license:/app/license",
-        "botcraft-certs:/app/certs",
-        "botcraft-configs:/app/configs",
-        "botcraft-custom:/app/custom",
-        "/etc/machine-id:/etc/machine-id:ro"
+        "any2x-license:/app/license",
+        "any2x-certs:/app/certs",
+        "any2x-configs:/app/configs",
+        "any2x-custom:/app/custom",
+        "/etc/machine-id:/etc/machine-id"
     ]
 }
