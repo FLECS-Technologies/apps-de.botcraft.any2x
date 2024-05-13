@@ -4,7 +4,7 @@
     "app": "de.botcraft.any2x",
     "version": "##VERSION##",
     "revision": "0",
-    "image": "dfgjax.botcraft.io/botcraft/any2x",
+    "image": "flecs.azurecr.io/de.botcraft.any2x",
     "multiInstance": false,
     "editor": "",
     "ports": [
